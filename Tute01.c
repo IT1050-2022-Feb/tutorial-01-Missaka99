@@ -5,6 +5,13 @@
 #include <stdio.h>
 
 int main() {
+   int mark1, mark2;
+   printf("Enter marks 1 : ");
+   scanf("%d",&mark1);
+   printf("Enter marks 2 : ");
+   scanf("%d", &mark2);
+   
+   printf("Total marks : %d", marks1 + marks2);
   
   return 0;
 }
