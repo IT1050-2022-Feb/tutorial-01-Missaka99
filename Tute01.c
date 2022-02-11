@@ -11,7 +11,7 @@ int main() {
    printf("Enter marks 2 : ");
    scanf("%d", &mark2);
    
-   printf("Total marks : %d", marks1 + marks2);
+   printf("Total marks : %d", mark1 + mark2);
   
   return 0;
 }
